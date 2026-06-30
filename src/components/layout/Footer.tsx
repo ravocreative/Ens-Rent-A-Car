@@ -164,6 +164,21 @@ export default function Footer() {
           </div>
         </Container>
       </div>
+
+      <div className="border-t border-white/10 bg-black/30">
+        <Container className="py-4 pb-20 text-center text-xs text-white/50 lg:pb-4">
+          Bu web sitesi{" "}
+          <a
+            href="https://ravocreative.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-[var(--primary)] transition-colors hover:text-white"
+          >
+            Ravo Creative Studio
+          </a>{" "}
+          tarafından hazırlanmıştır.
+        </Container>
+      </div>
     </footer>
   );
 }
