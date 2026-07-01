@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "İslahiye Rent a Car",
   shortName: "İslahiye Rent a Car",
 
-  domain: "https://www.siteadresi.com",
+  domain: "https://www.islahiyearackiralama.com",
 
   // Alias for backward compatibility with older imports
   get url() {
